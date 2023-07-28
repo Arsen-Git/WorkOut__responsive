@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WorkOut</title>
+    <link rel="stylesheet" href="./styles/reset.scss">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.scss">
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navigation__wrapper container">
+            <picture class="navigation__logo">
+                <source media="(min-width:1024px)" srcset="./img/navigation/logo-comp.svg">
+                <img src="./img/navigation/logo-mob.svg" alt="none">
+            </picture>
+            <details class="navigation" open>
+                <summary class="burger__menu">
+                    <div class="burger__menu__line"></div>
+                    <div class="burger__menu__line"></div>
+                    <div class="burger__menu__line"></div>
+                </summary>
+                <div class="nav">
+                    <menu class="navigation__list">
+                        <li class="navigation__list__item"><a class="navigation__list__item__link" href="#">EXERCICES</a></li>
+                        <li class="navigation__list__item"><a class="navigation__list__item__link" href="#">COMMUNITY</a></li>
+                        <li class="navigation__list__item"><a class="navigation__list__item__link" href="#">PRICING</a></li>
+                        <li class="navigation__list__item"><a class="navigation__list__item__link" href="#">ABOUT US</a></li>
+                        <div class="btn-section">
+                            <a class="navigation__list__item__link navigation__btn" href="#">LOGIN</a>
+                            <a class="navigation__list__item__link navigation__btn-active" href="#">SIGN IN</a> 
+                        </div> 
+                    </menu>  
+                </div>
+            </details>
+        </nav>
+        <section class="hero container">
+            <picture class="hero__picture">
+                <source media="(min-width:1024px)" srcset="./img/hero/girl-comp.jpg">
+                <img src="./img/hero/girl-mob.png" alt="none">
+            </picture>
+            <div class="hero__content">
+                <h1 class="hero__title">4 WEEK</h1>
+                <h2 class="hero__subtitle">Workout Plan</h2>
+                <p class="hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla, lacus eget consequat tincidunt, lectus ex bibendum libero, eget iaculis quam arcu quis mauris. Donec ex neque, egestas in faucibus.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas</p>
+                <a class="global__btn" href="#">TRY FOR FREE</a>
+            </div>
+            <div class="hero__additional">
+                <div class="hero__additional-content">
+                    <h2 class="hero__additional-content__title">GET INSPIRED</h2>
+                    <p class="hero__additional-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringil. lacus eget consequat tincidunt, lectus ex.</p>
+                    <div class="hero__additional-content__btn-section">
+                        <div class="arrow__circle">
+                            <figure class="arrow">
+                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.464871 9.50128C0.169327 9.7915 0.169327 10.262 0.464871 10.5523C0.760415 10.8425 1.23959 10.8425 1.53513 10.5523L0.464871 9.50128ZM10.9492 1C10.9492 0.589573 10.6104 0.256853 10.1924 0.256853L3.38131 0.256853C2.96334 0.256853 2.62452 0.589573 2.62452 1C2.62452 1.41044 2.96334 1.74316 3.38131 1.74316H9.4356V7.68836C9.4356 8.09879 9.77443 8.43151 10.1924 8.43151C10.6104 8.43151 10.9492 8.09879 10.9492 7.68836L10.9492 1ZM1.53513 10.5523L10.7275 1.52549L9.65726 0.474517L0.464871 9.50128L1.53513 10.5523Z" fill="#F2F2F2"/>
+                                </svg>                                
+                            </figure>
+                        </div>
+                        <a href="#" class="hero__additional-content-link">Explore More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__additional">
+                <div class="hero__additional-content">
+                    <h2 class="hero__additional-content__title">GET INSPIRED</h2>
+                    <p class="hero__additional-content__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringil. lacus eget consequat tincidunt, lectus ex.</p>
+                    <div class="hero__additional-content__btn-section">
+                        <div class="arrow__circle">
+                            <figure class="arrow">
+                                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0.464871 9.50128C0.169327 9.7915 0.169327 10.262 0.464871 10.5523C0.760415 10.8425 1.23959 10.8425 1.53513 10.5523L0.464871 9.50128ZM10.9492 1C10.9492 0.589573 10.6104 0.256853 10.1924 0.256853L3.38131 0.256853C2.96334 0.256853 2.62452 0.589573 2.62452 1C2.62452 1.41044 2.96334 1.74316 3.38131 1.74316H9.4356V7.68836C9.4356 8.09879 9.77443 8.43151 10.1924 8.43151C10.6104 8.43151 10.9492 8.09879 10.9492 7.68836L10.9492 1ZM1.53513 10.5523L10.7275 1.52549L9.65726 0.474517L0.464871 9.50128L1.53513 10.5523Z" fill="#F2F2F2"/>
+                                    </svg>                                
+                            </figure>
+                        </div>
+                        <a href="#" class="hero__additional-content-link">Explore More</a>
+                    </div>
+                </div>
+            </div>   
+        </section>
+    </div>
+</body>
+</html>

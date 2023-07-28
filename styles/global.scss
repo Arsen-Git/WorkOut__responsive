@@ -1,0 +1,39 @@
+$white: #fff;
+$gray: #1F1C26;
+$gray-light: #332F3C;
+$dark-pink: #59253E;
+$pink: #F24B88;
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1164px;
+    margin: 0 auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.global__btn{
+    padding: 11px;
+
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration: none;
+
+    background-color: $pink;
+    color: $white;
+
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 1024px) {
+    .global__btn{
+        padding: 20px 30px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
